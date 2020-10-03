@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <fragment
+        android:id="@+id/topFragment"
+        android:name="com.example.memecreator.TopFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+    <fragment
+        android:id="@+id/bottonFragment"
+        android:name="com.example.memecreator.BottomFragment"
+        android:layout_width="410dp"
+        android:layout_height="410dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
